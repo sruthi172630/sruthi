@@ -1,0 +1,30 @@
+
+
+* {
+    font-family: 'Counier New',Courier,monospace;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks-container{
+    display: flex;
+    gap: 32px;
+}
+.logo {
+    font-size: 32px;
+    color: rgb(255,10,124);
+    text-transform: capitalize;
+}
+.body-container {
+    width: 90%;
+    margin: auto;
+}
+.post-btn{
+    background-color: rgb(9,110,243);
+    padding: 8px 32px;
+    color: rgb(229,255,0);
+    border: 0;
+    border-radius: 5px;
+}
